@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LaunchBrowser {
-	public static void main(String[] args) throws InterruptedException  {
+	public static void main(String[] args) throws InterruptedException {
 		System.out.println("----- Test Started -----");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
@@ -19,11 +19,8 @@ public class LaunchBrowser {
 		search.sendKeys("Selenium Java");
 		search.submit();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(d ->d.findElement(By.xpath("//div[contains(@class, 'hdtb-mitem hdtb-msel')]"))).isDisplayed();
+		wait.until(d -> d.findElement(By.xpath("//div[contains(@class, 'hdtb-mitem hdtb-msel')]"))).isDisplayed();
 		driver.quit();
 		System.out.println("----Test Passed----");
-		
-		
 	}
-
 }
