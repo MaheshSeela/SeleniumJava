@@ -31,6 +31,8 @@ public class Test2 {
 				Thread.sleep(3000);
 				highlight(driver, driver.findElement(By.cssSelector("input[name= 'commit']")));
 				driver.close();
+
+		system.out.println("----- Test Passed -----);
 				
 
 	}
