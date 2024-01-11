@@ -2,7 +2,7 @@ package important;
 
 import java.util.Scanner;
 
-public class fibnocci {
+public class Fibnocci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
