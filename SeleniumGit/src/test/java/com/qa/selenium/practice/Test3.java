@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 
-public class Test3 {
+public class GitLoginTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
